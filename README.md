@@ -1,7 +1,8 @@
-# README
+# High Tide Technologies Code Assessment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the High Tide Technologies Code Assesment! The goal of this assessment is to evaluate a candidate's ability to gather context, ask questions, and implement a solution to an unfamiliar problem.
+
+Your goal will be to implement a service that will estimate stuff.
 
 Things you may want to cover:
 

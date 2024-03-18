@@ -1,7 +1,8 @@
+# Represents a lift station for water/wastewater utilities. Consist of:
+# - pump
+# - a tank
+# - a lead float (at fixed height in tank)
+# - an off float (at fixed height in tank)
 class LiftStation < ApplicationRecord
-  belongs_to :flow_total, class_name: 'Counter', optional: true
-  belongs_to :inflow_rate, class_name: 'AnalogInput', optional: true
-  belongs_to :outflow_rate, class_name: 'AnalogInput', optional: true
-  belongs_to :pump_1, class_name: 'Pump', optional: true
-  belongs_to :pump_2, class_name: 'Pump', optional: true
+  belongs_to :pump, class_name: 'Pump', optional: true
 end

@@ -1,2 +1,0 @@
-class AnalogInput < ApplicationRecord
-end
