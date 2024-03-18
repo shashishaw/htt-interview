@@ -4,7 +4,7 @@
 #
 # For the sake of the assignment, assume the pump state did not change between reports, rather the
 # the pump switched on/off exactly when the telemtry message was sent.
-class Measures::PumpState < ApplicationRecord
+class Telemetry::PumpState < ApplicationRecord
   self.table_name = 'pump_states'
   belongs_to :pump
 end

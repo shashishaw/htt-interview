@@ -7,9 +7,6 @@ class CreateLiftStations < ActiveRecord::Migration[7.1]
       t.float :off_to_floor
 
       t.integer :pump_id
-      t.integer :inflow_rate_id
-      t.integer :outflow_rate_id
-      t.integer :flow_total_id
 
       t.timestamps
     end

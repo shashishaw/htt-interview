@@ -4,5 +4,5 @@
 # - a lead float (at fixed height in tank)
 # - an off float (at fixed height in tank)
 class LiftStation < ApplicationRecord
-  belongs_to :pump, class_name: 'Pump', optional: true
+  belongs_to :pump, class_name: 'Pump'
 end
