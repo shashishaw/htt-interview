@@ -24,7 +24,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_03_18_212203) do
 
   create_table "pump_cycles", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.datetime "started_at", null: false
-    t.integer "duration", null: false
+    t.integer "duration"
     t.bigint "pump_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -34,7 +34,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_03_18_212203) do
   create_table "pump_states", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.boolean "active", null: false
     t.datetime "reported_at", null: false
-    t.bigint "pump_id"
+    t.bigint "pump_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["pump_id"], name: "index_pump_states_on_pump_id"

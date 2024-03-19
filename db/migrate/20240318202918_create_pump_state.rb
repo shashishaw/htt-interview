@@ -3,7 +3,7 @@ class CreatePumpState < ActiveRecord::Migration[7.1]
     create_table :pump_states do |t|
       t.boolean :active, null: false
       t.datetime :reported_at, null: false
-      t.references :pump
+      t.references :pump, null: false
       t.timestamps
     end
   end

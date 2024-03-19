@@ -2,6 +2,7 @@
 class Pump < ApplicationRecord
   has_one :lift_station
   has_many :pump_states, class_name: 'Telemetry::PumpState'
+  has_many :pump_cycles
 
   def on?
     pump_states.last&.active
