@@ -10,17 +10,17 @@ Your goal will be to implement a service that will estimate the flow of water in
 ### STILL A WORK IN PROGRESS
 
 ### Table of Contents
-- [Concepts](https://github.com/HighTideTechnologies/htt-interview/main/README.md#concepts)
-    - [What is a Lift Station?](https://github.com/HighTideTechnologies/htt-interview/main/README.md#what-is-a-lift-station)
-    - [Components](https://github.com/HighTideTechnologies/htt-interview/main/README.md#components)
-        - [Float Switches](https://github.com/HighTideTechnologies/htt-interview/main/README.md#float-switches)
-        - [Pump](https://github.com/HighTideTechnologies/htt-interview/main/README.md#pump)
-        - [Tank](https://github.com/HighTideTechnologies/htt-interview/main/README.md#tank)
-- [Goal](https://github.com/HighTideTechnologies/htt-interview/main/README.md#instructions)
+- [Concepts](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#concepts)
+    - [What is a Lift Station?](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#what-is-a-lift-station)
+    - [Components](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#components)
+        - [Float Switches](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#float-switches)
+        - [Pump](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#pump)
+        - [Tank](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#tank)
+- [Goal](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#instructions)
 - [Instructions](https://github.com/HighTideTechnologies/htt-interview/main/README.md#instructions)
-    - [Models](https://github.com/HighTideTechnologies/htt-interview/main/README.md#models)
-        -[Lift Station](https://github.com/HighTideTechnologies/htt-interview/main/README.md#lift_station)
-- [Getting Started](https://github.com/HighTideTechnologies/htt-interview/main/README.md#getting-started)
+    - [Models](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#models)
+        -[Lift Station](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#lift_station)
+- [Getting Started](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#getting-started)
 
 ## Concepts
 #### What is a lift station?
