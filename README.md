@@ -16,6 +16,9 @@ Your goal will be to implement a service that will estimate the flow of water in
         - [Tank](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#tank)
 - [Goal](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#instructions)
 - [Instructions](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#instructions)
+    - [Models](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#models)
+        -[Lift Station](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#lift_station)
+- [Getting Started](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#getting-started)
 
 ## Concepts
 #### What is a lift station?
@@ -60,4 +63,9 @@ You goal is to estimate the flow through the lift station after a pump cycle com
 -  total flow (the amount of liquid pumped out of the tank while the pump was on)
 
 ## Instructions
-do it.
+There are models and tests in place to get you started. You will be required to implement several methods and write tests to ensure the code is working as intended.
+
+#### Models
+The following models and migrations to create their tables have been provided for you. No more tables should be required to complete the assignment.
+
+## Getting Started
