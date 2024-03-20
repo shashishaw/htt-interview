@@ -8,7 +8,7 @@ FactoryBot.define do
     end
   end
 
-  factory :pump_with_telemetry do
+  factory :pump_with_telemetry, class: Pump do
     after(:create) do |pump, _evaluator|
       time = Time.now.yesterday.beginning_of_day
       COUNT.times do

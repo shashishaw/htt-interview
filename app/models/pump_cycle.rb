@@ -16,4 +16,9 @@ class PumpCycle < ApplicationRecord
   def eneded_at
     started_at + durations.seconds
   end
+
+  # create new LiftStationCycle with estimations
+  def calculate_lift_station_cycle
+    LiftStationFlowEstimator.new(lift_station: pump.lift_station).perform
+  end
 end
