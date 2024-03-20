@@ -100,7 +100,7 @@ end
 ```
 
 ###### Pump States
-Pump states represent telemetry data sent from the lift station to our server.
+Pump states represent telemetry data sent from the lift station to our server. Pump states are reported by the lift station every two minutes, so off and on states do not necessarily alternate (e.g. if a pump runs for 6 minutes, 3 consecutive _on_ states will be received).
 ```
 create_table "pump_states", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.boolean "active", null: false         # true indicates the pump is on, false off
