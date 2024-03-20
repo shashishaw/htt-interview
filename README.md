@@ -28,6 +28,12 @@ Your goal will be to implement a service that will estimate the flow of water in
     - [Tests](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#tests)
     - [Factories](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#factories)
 - [Getting Started](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#getting-started)
+    - Installations
+        - Ruby
+        - Rails
+        - MySQL
+    - Fork the repository
+    - Setup
 
 ## Concepts
 #### What is a lift station?
@@ -186,3 +192,38 @@ Factories, via [FactoryBot](https://github.com/thoughtbot/factory_bot) to create
 However, you may have to utilize some of the factories in the tests that you write.
 
 ## Getting Started
+
+#### Installations
+
+###### Ruby
+Ensure you have Ruby installed on your machine.
+```
+$ ruby -v
+ruby 3.1.4p223
+```
+If you do not, install it. We're using v3.1.4 in this project.
+
+###### Rails
+Ensure you have Rails installed on your machine
+```
+$ rails -v
+Rails 7.1.3.2
+```
+If you do not, install it with `gem install rails -v 7.1.3`
+
+###### MySQL
+Ensure you have mysql server installed on your machine.
+```
+$ mysql --version
+mysql  Ver 8.3.0 for macos13.6 on x86_64 (Homebrew)
+```
+If you do not, install it.
+
+#### Fork the repository
+Fork the repository to your personal GitHub account and clone it to your machine.
+
+#### Fork the repository
+Navigate to the projects directory and run
+```
+$ bundle install
+```
