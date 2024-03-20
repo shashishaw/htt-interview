@@ -7,18 +7,20 @@ Welcome to the High Tide Technologies Code Assesment! The goal of this assessmen
 
 Your goal will be to implement a service that will estimate the flow of water into/out of a wasterwater lift station.
 
+### STILL A WORK IN PROGRESS
+
 ### Table of Contents
-- [Concepts](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#concepts)
-    - [What is a Lift Station?](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#what-is-a-lift-station)
-    - [Components](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#components)
-        - [Float Switches](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#float-switches)
-        - [Pump](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#pump)
-        - [Tank](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#tank)
-- [Goal](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#instructions)
-- [Instructions](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#instructions)
-    - [Models](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#models)
-        -[Lift Station](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#lift_station)
-- [Getting Started](https://github.com/HighTideTechnologies/htt-interview/edit/main/README.md#getting-started)
+- [Concepts](https://github.com/HighTideTechnologies/htt-interview/main/README.md#concepts)
+    - [What is a Lift Station?](https://github.com/HighTideTechnologies/htt-interview/main/README.md#what-is-a-lift-station)
+    - [Components](https://github.com/HighTideTechnologies/htt-interview/main/README.md#components)
+        - [Float Switches](https://github.com/HighTideTechnologies/htt-interview/main/README.md#float-switches)
+        - [Pump](https://github.com/HighTideTechnologies/htt-interview/main/README.md#pump)
+        - [Tank](https://github.com/HighTideTechnologies/htt-interview/main/README.md#tank)
+- [Goal](https://github.com/HighTideTechnologies/htt-interview/main/README.md#instructions)
+- [Instructions](https://github.com/HighTideTechnologies/htt-interview/main/README.md#instructions)
+    - [Models](https://github.com/HighTideTechnologies/htt-interview/main/README.md#models)
+        -[Lift Station](https://github.com/HighTideTechnologies/htt-interview/main/README.md#lift_station)
+- [Getting Started](https://github.com/HighTideTechnologies/htt-interview/main/README.md#getting-started)
 
 ## Concepts
 #### What is a lift station?
