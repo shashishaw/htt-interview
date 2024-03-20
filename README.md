@@ -19,7 +19,7 @@ Your goal will be to implement a service that will estimate the flow of water in
 - [Goal](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#instructions)
 - [Instructions](https://github.com/HighTideTechnologies/htt-interview/main/README.md#instructions)
     - [Models](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#models)
-        -[Lift Station](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#lift_station)
+        - [Lift Station](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#lift_station)
 - [Getting Started](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#getting-started)
 
 ## Concepts
