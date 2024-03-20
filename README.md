@@ -24,6 +24,9 @@ Your goal will be to implement a service that will estimate the flow of water in
         - [Pump States](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#pump-states)
         - [Pump Cycles](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#pump-cycles)
         - [Lift Station Cycles](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#lift-station-cycles)
+    - [Methods](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#methods)
+    - [Tests](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#tests)
+    - [Factories](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#factories)
 - [Getting Started](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#getting-started)
 
 ## Concepts
@@ -132,5 +135,52 @@ create_table "lift_station_cycles", charset: "utf8mb4", collation: "utf8mb4_0900
     t.datetime "updated_at", null: false
   end
 ```
+
+#### Methods
+Several methods have been defined for you but not yet implemented. An attempt to call them initially will raise a `NotImplementedError`. You can find these message by searching for `# TODO:` comments.
+
+###### Example
+```
+class LiftStation < ApplicationRecord
+  belongs_to :pump, class_name: 'Pump'
+
+  # TODO: implement method
+  # The total volume of the lift stations tank
+  def total_tank_volume
+    raise NotImplementedError, 'This method still needs to be implemented.'
+  end
+
+  # TODO: implement method
+  # The volume of the tank from the height of the off float to the height of the lead float
+  def lead_to_off_volume
+    raise NotImplementedError, 'This method still needs to be implemented.'
+  end
+end
+```
+
+#### Tests
+There are several tests written for you. Some tests will have examples written for you and implementing the relevant methods should cause them to pass. Other tests have been explained in comments and you will need to implement them.
+
+We use [RSpec](https://github.com/rspec/rspec-rails) as our test framework.
+
+###### Example
+```
+describe LiftStationCycle do
+  describe '#total_tank_volume' do
+    let(:lift_station) { FactoryBot.create :lift_station }
+
+    it 'is implemented' do
+      expect { lift_station.total_tank_volume }.not_to raise_error(NotImplementedError)
+    end
+
+    # TODO: write a test validating 'LiftStation#total_tank_volume' returns the correct volume
+    it 'returns the correct volume' do
+    end
+  end
+...
+```
+
+#### Factories
+Factories, via [FactoryBot](https://github.com/thoughtbot/factory_bot) to create objects to test against have been included for you. You should not need to edit any factories.
 
 ## Getting Started
