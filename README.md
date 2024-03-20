@@ -70,4 +70,18 @@ There are models and tests in place to get you started. You will be required to 
 #### Models
 The following models and migrations to create their tables have been provided for you. No more tables should be required to complete the assignment.
 
+###### Lift Station
+```
+create_table "lift_stations", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.float "radius"                         # the radius of the tank
+    t.float "height"                         # the total height of the tank
+    t.float "lead_to_floor"                  # the height from the floor of the tank to the fixed height of the lead float
+    t.float "off_to_floor"                   # the height from the floor of the tank to the fixed height of the off float
+    t.integer "pump_id"                      # the associated pump
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "name"                          # the name of the lift station
+  end
+```
+
 ## Getting Started
