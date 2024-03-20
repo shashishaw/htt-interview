@@ -223,7 +223,17 @@ If you do not, install it.
 Fork the repository to your personal GitHub account and clone it to your machine.
 
 #### Setup
-Navigate to the projects directory and run
+
+###### Install Gems
+Navigate to the projects directory and run:
 ```
 $ bundle install
 ```
+
+###### Create Database and Migrate
+Run
+```
+$ rake db:create
+$ rake db:migrate
+```
+to create the database and tables.
