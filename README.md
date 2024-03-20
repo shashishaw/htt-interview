@@ -21,6 +21,9 @@ Your goal will be to implement a service that will estimate the flow of water in
     - [Models](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#models)
         - [Lift Stations](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#lift-stations)
         - [Pumps](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#pumps)
+        - [Pump States](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#pump-states)
+        - [Pump Cycles](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#pump-cycles)
+        - [Lift Station Cycles](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#lift-station-cycles)
 - [Getting Started](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#getting-started)
 
 ## Concepts
@@ -103,6 +106,31 @@ create_table "pump_states", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci",
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
 end
+```
+
+###### Pump Cycles
+Pump Cycles represent a cycle from pump on to pump off.
+```
+create_table "pump_cycles", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.datetime "started_at", null: false   # pump cycle starts when the pump turns on
+    t.integer "duration"                   # records the duration of the pump cycle. should be nil until the pump turns off.
+    t.bigint "pump_id", null: false        # the associated pump
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+end
+```
+
+###### Lift Station Cycles
+Lift Station cycles contain the flow estimations for a lift station. They should be computed at the end of a pump cycle.
+```
+create_table "lift_station_cycles", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.integer "inflow_rate"                     # estimated rate of liquid flowing into the tank
+    t.integer "outflow_rate"                    # estimated rate of liquid pumped out of the tank
+    t.integer "flow_total"                      # estimated total volume of liquid pumped out of the tank
+    t.bigint "lift_station_id", null: false     # associated lift station
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 ```
 
 ## Getting Started
