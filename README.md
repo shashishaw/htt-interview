@@ -28,12 +28,12 @@ Your goal will be to implement a service that will estimate the flow of water in
     - [Tests](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#tests)
     - [Factories](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#factories)
 - [Getting Started](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#getting-started)
-    - Installations
+    - [Installations](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#installations)
         - Ruby
         - Rails
         - MySQL
-    - Fork the repository
-    - Setup
+    - [Fork the repository](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#fork-the-repository)
+    - [Setup](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#setup)
 
 ## Concepts
 #### What is a lift station?
