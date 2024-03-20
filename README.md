@@ -222,7 +222,7 @@ If you do not, install it.
 #### Fork the repository
 Fork the repository to your personal GitHub account and clone it to your machine.
 
-#### Fork the repository
+#### Setup
 Navigate to the projects directory and run
 ```
 $ bundle install
