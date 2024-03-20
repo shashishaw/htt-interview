@@ -183,4 +183,6 @@ describe LiftStationCycle do
 #### Factories
 Factories, via [FactoryBot](https://github.com/thoughtbot/factory_bot) to create objects to test against have been included for you. You should not need to edit any factories.
 
+However, you may have to utilize some of the factories in the tests that you write.
+
 ## Getting Started
