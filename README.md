@@ -3,7 +3,7 @@
 
 # High Tide Technologies Code Assessment
 
-Welcome to the High Tide Technologies Code Assesment! The goal of this assessment is to evaluate a candidate's ability to gather context, ask questions, and implement a solution to an unfamiliar problem.
+Welcome to the High Tide Technologies Code Assesment! The goal of this assessment is to evaluate a candidate's ability to gather context, ask questions, and implement a solution to an unfamiliar problem utilizing the Ruby on Rails framework.
 
 Your goal will be to implement a service that will estimate the flow of water into/out of a wasterwater lift station.
 
