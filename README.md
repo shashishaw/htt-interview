@@ -19,7 +19,8 @@ Your goal will be to implement a service that will estimate the flow of water in
 - [Goal](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#goal)
 - [Instructions](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#instructions)
     - [Models](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#models)
-        - [Lift Station](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#lift-station)
+        - [Lift Stations](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#lift-stations)
+        - [Pumps](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#pumps)
 - [Getting Started](https://github.com/HighTideTechnologies/htt-interview?tab=readme-ov-file#getting-started)
 
 ## Concepts
@@ -70,7 +71,7 @@ There are models and tests in place to get you started. You will be required to 
 #### Models
 The following models and migrations to create their tables have been provided for you. No more tables should be required to complete the assignment.
 
-###### Lift Station
+###### Lift Stations
 ```
 create_table "lift_stations", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.float "radius"                         # the radius of the tank
@@ -81,7 +82,27 @@ create_table "lift_stations", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "name"                          # the name of the lift station
-  end
+end
+```
+
+###### Pumps
+```
+create_table "pumps", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+end
+```
+
+###### Pump States
+Pump states represent telemetry data sent from the lift station to our server.
+```
+create_table "pump_states", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
+    t.boolean "active", null: false         # true indicates the pump is on, false off
+    t.datetime "reported_at", null: false   # the time the data was reported, not necessarily the time the row was created
+    t.bigint "pump_id", null: false         # the associated pump
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+end
 ```
 
 ## Getting Started
